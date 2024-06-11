@@ -1,3 +1,4 @@
+/* CSS */
 * {
     margin: 0;
     padding: 0;
@@ -93,6 +94,7 @@ body {
         padding: 16px 10px;
         margin-top: 20px;
         margin-bottom: 20px;
+        position: relative;
     }
 
     .display input {
@@ -110,6 +112,14 @@ body {
 
     .display img {
         width: 25px;
+    }
+
+    #copy-btn {
+        position: absolute;
+        right: 10px;
+        bottom: 10px;
+        width: 25px;
+        cursor: pointer;
     }
 }
 
